@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac82e10e.css",
+    "main.js": "/static/js/main.fb7c3bf7.js",
+    "static/media/RightSidelogo.gif": "/static/media/RightSidelogo.06464f8d777ddc5e06e8.gif",
+    "static/media/test2.gif": "/static/media/test2.b74092b9060a1c454f90.gif",
+    "static/media/UTALogo.png": "/static/media/UTALogo.eb270cae02f70046288d.png",
+    "static/media/LinkdinConnect.jpg": "/static/media/LinkdinConnect.452e616ef0a69096ab9b.jpg",
+    "index.html": "/index.html",
+    "main.ac82e10e.css.map": "/static/css/main.ac82e10e.css.map",
+    "main.fb7c3bf7.js.map": "/static/js/main.fb7c3bf7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac82e10e.css",
+    "static/js/main.fb7c3bf7.js"
+  ]
+}
