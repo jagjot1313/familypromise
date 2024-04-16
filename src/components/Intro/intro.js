@@ -25,7 +25,7 @@ const Intro = () => {
     <section id="intro" className="intro">
       <div className="introContent">
         <span className="introName" color="yellow">
-          <h1>Zapper,</h1>
+          <h1>Family Promise,</h1>
         </span>
         <span className="hello">
           A fantastic tool to help predict homelessness.
@@ -36,7 +36,7 @@ const Intro = () => {
           {" "}
           <p>
             It works by analyzing several factors that contribute towards
-            homelessness and evulates a common factor.
+            homelessness and evaluates a common factor.
           </p>
           <br />
           Predicting where we can have the greatest effect in serving the
