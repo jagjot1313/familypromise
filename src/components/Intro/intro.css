@@ -1,75 +1,41 @@
-#intro {
-  height: calc(100vh - 4rem);
-  width: 100vw;
-  max-width: 75rem;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-}
-
-.bg {
-  position: absolute;
-  top: -4rem;
-  right: 0;
-  z-index: -1;
-  object-fit: cover;
-  height: 100vh;
-}
-.introContent {
+.intro {
   height: 100vh;
   width: 100vw;
-  padding: 2rem;
-  font-size: 3rem;
-  font-weight: 700;
   display: flex;
-  flex-direction:column;
-  justify-content: center;
-
-}
-.hello{
-    font-size: 1.35rem;
-    font-weight: 100;
-}
-.introName{
-    color:yellow;
-    font-size: 150;
-
-}
-.introPara
-{
-    font-size: medium;
-    font-weight: 100;
+  flex: 1;
+  align-items: center;
+  padding: 0 5%;
 }
 
-.btn
-{
-    font-size: medium;
-    right:0;
-    background-color: white;
-    margin: 0.5rem 0;
-    padding: 0.5rem 1.25rem;
-    border-radius: 2rem;
-    align-content: center;
-    align-items: center;
-    display:flex;
-
-}
-.Hirelogo{
-    object-fit:cover;
-    margin:0 0.25rem;
-    height:2.5rem;
-    border-radius: 2rem;
+.intro > * {
+  width: 50%;
 }
 
+.graphContainer {
+  display: flex;
+}
 
-@media screen and (max-width:500px){
-    .bg{
-        right: -200px;
-    }
-    .introContent{
-        font-size: 10vw;
-    }
-    .hello{
-        font-size: 4.5vw;
-    }
+.graphContainer button {
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.images-container img {
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro > * {
+    width: 100%;
+    padding: 2rem;
+  }
+  .images-container img {
+    width: 100%;
+  }
 }

@@ -11,7 +11,7 @@ const skills = () => {
     <section  id="skills">
         <span className='SkillTitle'><h1>More Graphical Data Representation</h1></span>
         <span className='skillDesc'>Some of these graphs can be used to determine a person's chances of becoming homeless</span>
-        <div className="skillBars">
+        <div className="skillBars"> 
             <div className='SkillbarText'>
             </div>
         </div>
