@@ -24,18 +24,23 @@ const Intro = () => {
   return (
     <section id="intro" className="intro">
       <div className="introContent">
-        <span className="introName">Zapper,</span>
+        <span className="introName" color="yellow">
+          <h1>Zapper,</h1>
+        </span>
         <span className="hello">
-          A fantastic tool to help predict homelessness
+          A fantastic tool to help predict homelessness.
           <span className="introName"></span>
           <br />
         </span>
         <p className="introPara">
           {" "}
-          It works by analyzing several factors that contribute to homelessness
-          and <br />
-          predicting where we can have the greatest effect in serving the
-          Spokane community.
+          <p>
+            It works by analyzing several factors that contribute towards
+            homelessness and evulates a common factor.
+          </p>
+          <br />
+          Predicting where we can have the greatest effect in serving the
+          Spokane community and providing them shelter.
         </p>
       </div>
       <div className="graphContainer">
@@ -48,7 +53,7 @@ const Intro = () => {
               )
           )}
         </div>
-          <button onClick={nextSlide}>Next</button>
+        <button onClick={nextSlide}>Next</button>
       </div>
     </section>
   );
